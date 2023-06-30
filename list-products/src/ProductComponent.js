@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FaStar } from 'react-icons/fa';
-import './ProductComponent.css'
+import {FaStar} from 'react-icons/fa';
+import './ProductComponent';
 
 const ProductCard = ({ product }) => {
   const { title, brand, category, stock, rating, thumbnail, price, discountPercentage } = product;

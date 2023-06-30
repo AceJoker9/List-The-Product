@@ -1,4 +1,4 @@
-import React, { useState, } from 'react';
+import React, { useState} from 'react';
 import Product from './ProductComponent';
 import SortProducts from './SortProducts';
 import CategorySelect from './CategorySelect';

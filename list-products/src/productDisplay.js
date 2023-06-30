@@ -1,7 +1,5 @@
-import React, { useState, } from 'react';
+import React from 'react';
 import Product from './ProductComponent';
-import SortProducts from './SortProducts';
-import CategorySelect from './CategorySelect';
 
 const ProductListing = ({ products }) => {
   const [sortingFunction, setSortingFunction] = useState(null);
