@@ -5,9 +5,6 @@ import SortProducts from './SortProducts';
 import CategorySelect from "./CategorySelect";
 import ProductCard from "./ProductComponent";
 
-
-
-
 function App() {
   const [allProducts, setAllProducts] = useState(data);
 
@@ -42,14 +39,9 @@ function App() {
         </div>
       </main>
       <footer>
-  
-  
-</footer>
-     
+        This is the footer
+      </footer>
     </div>
-    
-
-    
   );
 }
 
